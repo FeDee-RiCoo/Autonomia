@@ -9,14 +9,14 @@ def disegnaFigura(nLati):
     sommaAngoli = (nLati-2)*180
     
     for i in range(nLati):
-        t.forward(200)
+        t.forward(50)
         t.left(180-(sommaAngoli/nLati))
     
 # Ricevere in input il numero dei lati del poligono
 
 print("Inserire il numero dei lati del poligono")
 nLati = int(input())
-    
+     
 # Creazione della finestra
 
 screen = turtle.Screen()
